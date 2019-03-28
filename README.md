@@ -1,7 +1,8 @@
-# portfolio
+# John T. Prince
 
-Simple demonstration and description of my significant or otherwise
-interesting projects.  Unless noted, all work shown is my own.
+Simple demonstration and brief descriptions of some significant or interesting projects.  Unless noted, all data visualizations are my work.
+
+See also my [Software Development and Data Analysis Philosophy](https://github.com/jtprince/portfolio/blob/master/philosophy.md) and [Favorite Tools](https://github.com/jtprince/portfolio/blob/master/favorite_tools.md)
 
 ## Out of Stock Risk
 
@@ -15,7 +16,6 @@ Developed custom Holt-Winters (triple exponential) forecasting:
 * *Currently in production use at Doba Inc*
 
 [in-house project presentation](https://www.dropbox.com/s/k5niyn4kwm1jwze/OOS_Risk_Presentation.pdf?dl=0)
-
 
 <table border="0">
 <tr>
@@ -31,18 +31,32 @@ Developed custom Holt-Winters (triple exponential) forecasting:
 </tr>
 </table>
 
+## RESTful architecture
 
-## RESTful architect
+Co-designed the Crux-Connect RESTful interface.
 
+See [docs.cruxconnect.com](docs.cruxconnect.com) for public endpoints. I assisted with creation of the jekyll documentation, but I designed and built all the endpoints described by the documentation.
 
+<a href="media/restful-architecture/sku-example.png"><img src="media/restful-architecture/sku-example.png" width="800"/></a>
 
 ## Stateful Elasticsearch-based Search
 
 Architected entire elasticsearch search for product and autocompletion.
 
-Created stateful faceted and filtered search
+Created stateful faceted and filtered search.  The entire UI (which I did not
+build) was driven by the data returned from stateful API calls.
 
 * Dozens of unique filters and facets
 * Handles complete category heirarchy
 * Custom analyzers and normalizers for intuitive text search
 * Dual text/keyword indexing for text search and keyword-based sorting
+
+<a href="media/stateful-search/basic-search-interface.png"><img src="media/stateful-search/basic-search-interface.png" width="800"/></a>
+
+<a href="media/stateful-search/more-filters.png"><img src="media/stateful-search/more-filters.png"/></a>
+
+## Rubabel
+
+## SimpleR (Ruby rserve wrapper)
+
+## Obiwarp
