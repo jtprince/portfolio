@@ -10,7 +10,7 @@ See also:
 * [Software Development and Data Analysis Philosophy](https://github.com/jtprince/portfolio/blob/master/philosophy.md)
 * [Favorite Tools](https://github.com/jtprince/portfolio/blob/master/favorite_tools.md)
 
-### Out of Stock Risk
+## Out of Stock Risk
 
 Developed custom Holt-Winters (triple exponential) forecasting:
 
@@ -37,7 +37,7 @@ Developed custom Holt-Winters (triple exponential) forecasting:
 </tr>
 </table>
 
-### RESTful architecture
+## RESTful architecture
 
 Co-designed the Crux-Connect RESTful interface.
 
@@ -45,7 +45,7 @@ See [docs.cruxconnect.com](docs.cruxconnect.com) for public endpoints. I assiste
 
 <a href="media/restful-architecture/sku-example.png"><img src="media/restful-architecture/sku-example.png" width="900"/></a>
 
-### Stateful Elasticsearch-based Search
+## Stateful Elasticsearch-based Search
 
 Architected entire elasticsearch search for product and autocompletion.
 
@@ -61,20 +61,20 @@ build) was driven by the data returned from stateful API calls.
 
 <a href="media/stateful-search/more-filters.png"><img src="media/stateful-search/more-filters.png" width="300"/></a>
 
-### HydrogenBondifier
+## HydrogenBondifier
 
 Ruby interface into pymol and a script to determine hydrogen bond characteristics useful for hydrogen exchange mass spectrometry experiments.
 
 [HydrogenBondifier](https://github.com/jtprince/hydrogen_bondifier) (github)
 
-### MSabundanceSIM
+## MSabundanceSIM
 
 Took my collaborators algorithmic sketches and fashioned a complete software package in ruby.  Simulator to create case and control "samples" (molecule and abundance lists) with reasonable variance from one or more real world examples. (This was a recent personal project)
 
 * [MSabundanceSIM](https://github.com/jtprince/MSabundanceSIM) (github)
 * [J. Proteome Research, 2017, 16:2429–34](https://pubs.acs.org/doi/pdf/10.1021/acs.jproteome.7b00037)
 
-### Rubabel
+## Rubabel
 
 Wrapped Open Babel (cheminformatic model toolkit) with ruby.  I did not create
 the below image, but I was responsible for coding most of the library.
@@ -83,13 +83,13 @@ the below image, but I was responsible for coding most of the library.
 
 <a href="media/rubabel/object-model.png"><img src="media/rubabel/object-model.png"/></a>
 
-### rserve-simpler (Ruby R-serve wrapper)
+## rserve-simpler (Ruby R-serve wrapper)
 
 Built convenient interface to Rserve (a binary R server) for ruby.
 
 [rserve-simpler](https://github.com/jtprince/rserve-simpler) (github)
 
-### ruby histogram
+## ruby histogram
 
 Histogram solution for ruby featuring auto-bin and various bin methods (Scott, Sturges, FD, etc), multiple datasets, and weights
 
@@ -97,7 +97,7 @@ Suggested and then accepted as answer to [this stack overflow question](https://
 
 [histogram](https://github.com/jtprince/histogram) (github)
 
-### Obiwarp
+## Obiwarp
 
 Dynamic programming and bijective warping solution for chromatographic alignment of complex LC-MS datasets.
 
@@ -114,7 +114,7 @@ Dynamic programming and bijective warping solution for chromatographic alignment
 
 <a href="media/mspire/mspire.png"><img src="media/mspire/mspire.png"/></a>
 
-### Django-gtin-fields
+## Django-gtin-fields
 
 Provides django model fields to store and validate commonly used GTIN related product identifiers (like UPC).
 
