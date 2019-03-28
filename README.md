@@ -16,13 +16,13 @@ Developed custom Holt-Winters (triple exponential) forecasting:
 
 [in-house project presentation](https://www.dropbox.com/s/k5niyn4kwm1jwze/OOS_Risk_Presentation.pdf?dl=0)
 
-![categories](oos-risk/categories.png)
+![categories](media/oos-risk/categories.png)
 
-![final-example](oos-risk/final-example.png)
+![final-example](media/oos-risk/final-example.png)
 
-![integration-types](integration-types.png)
+![integration-types](media/oos-risk/integration-types.png)
 
-![nonuniform-data](nonuniform-data.png)
+![nonuniform-data](media/oos-risk/nonuniform-data.png)
 
 ## RESTful architect
 
