@@ -1,16 +1,14 @@
 # John T. Prince
 
-A few significant or interesting projects.  Unless noted, all data visualizations are my work.
+A few significant or interesting projects.  Unless noted, all visualizations are my work.
 
 See also:
 
 * [Curriculum Vitae](http://tiny.cc/jtprince-cv)
-* [Résumé](http://tiny.cc/jtprince-cv)
+* [Résumé](http://tiny.cc/jtprince-resume)
 * [Publications on Pubmed](http://tiny.cc/jtprince-publications) (34)
 * [Software Development and Data Analysis Philosophy](https://github.com/jtprince/portfolio/blob/master/philosophy.md)
 * [Favorite Tools](https://github.com/jtprince/portfolio/blob/master/favorite_tools.md)
-
-# Work which I primarily authored
 
 ### Out of Stock Risk
 
@@ -43,7 +41,7 @@ Developed custom Holt-Winters (triple exponential) forecasting:
 
 Co-designed the Crux-Connect RESTful interface.
 
-See [docs.cruxconnect.com](docs.cruxconnect.com) for public endpoints. I assisted with creation of the jekyll documentation, but I designed and built all the endpoints described by the documentation.
+See [docs.cruxconnect.com](docs.cruxconnect.com) for public endpoints. I assisted with creation of the jekyll documentation, but I designed and built all the endpoints shown in the image below.
 
 <a href="media/restful-architecture/sku-example.png"><img src="media/restful-architecture/sku-example.png" width="900"/></a>
 
@@ -61,7 +59,20 @@ build) was driven by the data returned from stateful API calls.
 
 <a href="media/stateful-search/basic-search-interface.png"><img src="media/stateful-search/basic-search-interface.png" width="900"/></a>
 
-<a href="media/stateful-search/more-filters.png"><img src="media/stateful-search/more-filters.png" width="200"/></a>
+<a href="media/stateful-search/more-filters.png"><img src="media/stateful-search/more-filters.png" width="300"/></a>
+
+### HydrogenBondifier
+
+Ruby interface into pymol and a script to determine hydrogen bond characteristics useful for hydrogen exchange mass spectrometry experiments.
+
+[HydrogenBondifier](https://github.com/jtprince/hydrogen_bondifier) (github)
+
+### MSabundanceSIM
+
+Took my collaborators algorithmic sketches and fashioned a complete software package in ruby.  Simulator to create case and control "samples" (molecule and abundance lists) with reasonable variance from one or more real world examples. (This was a recent personal project)
+
+* [MSabundanceSIM](https://github.com/jtprince/MSabundanceSIM) (github)
+* [J. Proteome Research, 2017, 16:2429–34](https://pubs.acs.org/doi/pdf/10.1021/acs.jproteome.7b00037)
 
 ### Rubabel
 
@@ -111,7 +122,7 @@ Provides django model fields to store and validate commonly used GTIN related pr
 
 ## State machine citation parsing
 
-State machine parsing to efficiently extract citations from large ascii doc dataset.
+State machine parsing to efficiently extract citations from large ascii doc dataset (recent personal contribution to open-source project).
 
 [extrac_sources.rb](https://github.com/wordtreefoundation/book-of-mormon/blob/master/src/extract_sources.rb)
 
