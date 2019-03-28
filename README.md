@@ -122,7 +122,7 @@ Provides django model fields to store and validate commonly used GTIN related pr
 
 ## Markdown documentation with ascii network diagrams
 
-Created a simple tool [markdown-convert-raw-tables-and-graphs.py](https://github.com/jtprince/dotfiles/blob/master/bin/markdown-convert-raw-tables-and-graphs.py) (quick prototype) to aid in rapidly documenting workflows using markdown (in this case, supplier integration workflows).  The script converts labeled code blocks into markdown-compatible output.
+Created a simple tool [markdown-convert-raw-tables-and-graphs.py](https://github.com/jtprince/dotfiles/blob/master/bin/markdown-convert-raw-tables-and-graphs.py) (quick prototype) to aid in rapidly documenting workflows using markdown (in this case, supplier integration workflows).  The script converts labeled code blocks (easy to specify) into markdown-compatible output which is both human readable *and* interpretable by github and most markdown parsers.
 
 ### Jsontable
 
@@ -145,7 +145,9 @@ Tables are specified in `jsontable` codeblocks which are then transformed into m
     }]
 
     ```
-    Which then creates:
+
+Which then creates:
+
     ```
     | Step Name | Description                       | Tool Used | Script Name               | Next Step                                            |
     | --------- | --------------------------------- | --------- | ------------------------- | ---------------------------------------------------- |
@@ -153,7 +155,7 @@ Tables are specified in `jsontable` codeblocks which are then transformed into m
     | _map_item | convert their Items into crux csv | python    | map_product_definition.py | send erazor*_crux_prod*.csv to _blessed_product_feed |
     ```
 
-Which is then interpreted by github to appear as:
+The markdown formatted table is interpreted by github, so it appears like this:
 
 | Step Name | Description                       | Tool Used | Script Name               | Next Step                                            |
 | --------- | --------------------------------- | --------- | ------------------------- | ---------------------------------------------------- |
@@ -162,7 +164,7 @@ Which is then interpreted by github to appear as:
 
 ### Dot graph language
 
-Networks flow diagrams are specified in the dot graph language:
+Network flow diagrams can be specified inside code blocks using the dot graph language:
 
     ```dot
     digraph items {
