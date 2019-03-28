@@ -83,9 +83,9 @@ the below image, but I was responsible for coding most of the library.
 
 <a href="media/rubabel/object-model.png"><img src="media/rubabel/object-model.png"/></a>
 
-## rserve-simpler (Ruby R-serve wrapper)
+## rserve-simpler
 
-Built convenient interface to Rserve (a binary R server) for ruby.
+Convenient interface to Rserve (a binary R server) for ruby.
 
 [rserve-simpler](https://github.com/jtprince/rserve-simpler) (github)
 
