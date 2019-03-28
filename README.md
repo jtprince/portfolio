@@ -1,6 +1,6 @@
 # John T. Prince
 
-A few significant or interesting projects.  Unless noted, all visualizations are my work.
+A few significant or interesting projects that seem shareable at a high level.  Unless noted, all visualizations are my work.
 
 See also:
 
@@ -120,11 +120,91 @@ Provides django model fields to store and validate commonly used GTIN related pr
 
 [django-gtin-fields](https://github.com/CruxConnect/django-gtin-fields) (github)
 
+## Markdown documentation with ascii network diagrams
+
+Created a simple tool [markdown-convert-raw-tables-and-graphs.py](https://github.com/jtprince/dotfiles/blob/master/bin/markdown-convert-raw-tables-and-graphs.py) (quick prototype) to aid in rapidly documenting workflows using markdown (in this case, supplier integration workflows).  The script converts labeled code blocks into markdown-compatible output.
+
+### Jsontable
+
+Tables are specified in `jsontable` codeblocks which are then transformed into markdown tables.
+
+    ```jsontable
+    [{
+        "Step Name":  "_get_item",
+        "Description": "use SOAP and produce json",
+        "Tool Used": "python",
+        "Script Name": "`get_inventory.py`",
+        "Next Step": "send erazor*_prod*.json to _map_item"
+    },
+    {
+        "Step Name":  "_map_item",
+        "Description": "convert their Items into crux csv",
+        "Tool Used": "python",
+        "Script Name": "map_product_definition.py",
+        "Next Step": "send erazor*_crux_prod*.csv to _blessed_product_feed"
+    }]
+
+    ```
+    Which then creates:
+    ```
+    | Step Name | Description                       | Tool Used | Script Name               | Next Step                                            |
+    | --------- | --------------------------------- | --------- | ------------------------- | ---------------------------------------------------- |
+    | _get_item | use SOAP and produce json         | python    | `get_inventory.py`        | send erazor*_prod*.json to _map_item                 |
+    | _map_item | convert their Items into crux csv | python    | map_product_definition.py | send erazor*_crux_prod*.csv to _blessed_product_feed |
+    ```
+
+Which is then interpreted by github to appear as:
+
+| Step Name | Description                       | Tool Used | Script Name               | Next Step                                            |
+| --------- | --------------------------------- | --------- | ------------------------- | ---------------------------------------------------- |
+| _get_item | use SOAP and produce json         | python    | `get_inventory.py`        | send erazor*_prod*.json to _map_item                 |
+| _map_item | convert their Items into crux csv | python    | map_product_definition.py | send erazor*_crux_prod*.csv to _blessed_product_feed |
+
+### Dot graph language
+
+Networks flow diagrams are specified in the dot graph language:
+
+    ```dot
+    digraph items {
+        "🐍 _get_item" -- "erazorbits" [label="SOAP API call"];
+        "⏰ jobber" -> "🐍 _get_item" [label="cron_start.txt"];
+        "🐍 _get_item" -> "🐍 _map_item" [label="erazorbits_item.json"];
+        "🐍 _map_item" -> "𝟀 _blessed_product_feed" [label="erazorbits_crux_item.csv"];
+    }
+    ```
+
+The script pipes the dot notation through graph-easy to generate ascii tables:
+
+
+```
+                                +---------------------------+
+                                |         ⏰ jobber          |
+                                +---------------------------+
+                                  |
+                                  | cron_start.txt
+                                  v
++------------+  SOAP API call   +---------------------------+
+| erazorbits | ---------------- |        🐍 _get_item        |
++------------+                  +---------------------------+
+                                  |
+                                  | erazorbits_item.json
+                                  v
+                                +---------------------------+
+                                |        🐍 _map_item        |
+                                +---------------------------+
+                                  |
+                                  | erazorbits_crux_item.csv
+                                  v
+                                +---------------------------+
+                                |  𝟀 _blessed_product_feed  |
+                                +---------------------------+
+```
+
 ## State machine citation parsing
 
 State machine parsing to efficiently extract citations from large ascii doc dataset (recent personal contribution to open-source project).
 
-[extrac_sources.rb](https://github.com/wordtreefoundation/book-of-mormon/blob/master/src/extract_sources.rb)
+[extract_sources.rb](https://github.com/wordtreefoundation/book-of-mormon/blob/master/src/extract_sources.rb)
 
 ```ruby
 ...
