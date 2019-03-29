@@ -1,14 +1,15 @@
 # John T. Prince
 
-A few significant or interesting projects that seem shareable at a high level.  Unless noted, all visualizations are my work.
-
-See also:
-
 * [Curriculum Vitae](http://tiny.cc/jtprince-cv)
 * [Résumé](http://tiny.cc/jtprince-resume)
+* [github](https://github.com/jtprince) / [Prince laboratory github](https://github.com/princelab)
 * [Publications on Pubmed](http://tiny.cc/jtprince-publications) (34)
 * [Software Development and Data Analysis Philosophy](https://github.com/jtprince/portfolio/blob/master/philosophy.md)
 * [Favorite Tools](https://github.com/jtprince/portfolio/blob/master/favorite_tools.md)
+
+---
+
+# Representative Projects
 
 ## Out of Stock Risk
 
