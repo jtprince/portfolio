@@ -3,7 +3,7 @@
 * [Curriculum Vitae](http://tiny.cc/jtprince-cv)
 * [Résumé](http://tiny.cc/jtprince-resume)
 * [github](https://github.com/jtprince) / [Prince laboratory github](https://github.com/princelab)
-* [Publications on Pubmed](http://tiny.cc/jtprince-publications) (34)
+* [Publications on Pubmed](http://tiny.cc/jtprince-publications) (34 total; 21 peer reviewed computational or algorithmic publications)
 * [Software Development and Data Analysis Philosophy](https://github.com/jtprince/portfolio/blob/master/philosophy.md)
 * [Favorite Tools](https://github.com/jtprince/portfolio/blob/master/favorite_tools.md)
 
@@ -48,10 +48,9 @@ See [docs.cruxconnect.com](docs.cruxconnect.com) for public endpoints. I assiste
 
 ## Stateful Elasticsearch-based Search
 
-Architected entire elasticsearch search for product and autocompletion.
+Architected entire elasticsearch search for product, catalog, inventory lists, and autocompletion.
 
-Created stateful faceted and filtered search.  The entire UI (which I did not
-build) was driven by the data returned from stateful API calls.
+Created stateful faceted and filtered search.  All of the logic of the core of the entire catalog search UI (which I did not build) was driven by the data I returned from these stateful API responses.
 
 * Dozens of unique filters and facets
 * Handles complete category heirarchy
