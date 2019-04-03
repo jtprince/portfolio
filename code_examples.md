@@ -60,3 +60,5 @@ Among the many other code projects I have completed and/or published, a few othe
 * [obiwarp](https://sourceforge.net/projects/obi-warp/files/obiwarp/) ([pubmed](https://www.ncbi.nlm.nih.gov/pubmed/16944896) | [integration into R](https://rdrr.io/bioc/xcms/man/retcor.obiwarp-methods.html)): Chromatographic alignment of proteomic data sets by ordered bijective interpolated warping
 * [histogram](https://github.com/jtprince/histogram): Generates histograms similar to R's hist and numpy's histogram functions and has implementations for common auto-bin algorithms
 * [binneroc](https://github.com/jtprince/binneroc): constant time binning
+* [extract_sources.rb](https://github.com/wordtreefoundation/book-of-mormon/blob/master/src/extract_sources.rb): a recent contribution to an open source project; state-machine parsing logic for highly efficient parsing of asciidoc.
+* [zip-crux-steps.rb](https://github.com/jtprince/dotfiles/blob/master/bin/zip-crux-steps.rb): simple commandline tool I recently wrote at Doba that was adopted by many other engineers for our integration workflow.
