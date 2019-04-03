@@ -1,14 +1,10 @@
-## Code Examples
+# Code Examples
 
 I've written dozens of packages (many quite extensive) for different languages (e.g., Ruby and Python) and hundreds of scripts.  Most of them can be found at [my github page](https://github.com/jtprince) or [my lab's github page](https://github.com/princelab).
 
-Like any programmer, I can almost always critique (and hopefully improve) my own code.  Some of the code below is very clean, modular, single-purpose code.  Some of it could be improved (mainly shorter methods with more focus per method).
+Like any programmer, I can almost always critique (and hopefully improve) my own code.  Some of the code below is very clean, modular, single-purpose code with good names.  Some of it could be improved (mainly shorter methods with more single-purpose per method).  In general, a strive to write "clean code", using such principles discussed by ["Uncle Bob"](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882).
 
-*Click on the topic heading to be taken directly to code (or where proprietary to other artifacts).*
-
-### [Out-of-stock risk](https://github.com/jtprince/portfolio/#out-of-stock-risk)
-
-Some of the best data science/engineering code that I've written lately is proprietary.  A good example of such a project is out-of-stock risk prediction which I've briefly described with images [on my portfolio page](https://github.com/jtprince/portfolio/#out-of-stock-risk).  Coded mainly using numpy/scipy.
+Click on the topic heading to be taken directly to code (where available).  The projects are roughly sorted from small, simple and generic to large, complex, and fairly specific/technical.
 
 ### [Django-gtin-fields](https://github.com/CruxConnect/django-gtin-fields)
 
@@ -23,42 +19,36 @@ Interesting features: concise/readable UPCA -> UPCE conversion that improve upon
 
 Simple, high-level control over screenshots in 90 lines of source code.
 
-![example](media/code-examples/sc-example-2019-04-03--01-13-14.png)
+<a href="media/code-examples/sc-example-2019-04-03--01-13-14.png"><img src="media/code-examples/sc-example-2019-04-03--01-13-14.png" width="500"/></a>
 
-### MSabundanceSIM - small science project
+### [Out-of-stock risk](https://github.com/jtprince/portfolio/#out-of-stock-risk)
+
+Some of the best data science/engineering code that I've written lately is proprietary.  A good example of such a project is out-of-stock risk prediction which I've briefly described with images [on my portfolio page](https://github.com/jtprince/portfolio/#out-of-stock-risk).  Coded mainly using numpy/scipy.
+
+### [Rserve-simpler](https://github.com/jtprince/rserve-simpler)
+
+Wrapper around the fairly performant Rserve library for binary communication with an R server.  Example usage in [mspire-lipid](https://github.com/princelab/mspire-lipid/blob/master/lib/mspire/lipid/search/probability_distribution.rb).
+
+### [MSabundanceSIM](https://github.com/jtprince/MSabundanceSIM)
 
 My collaborator, Rob Smith (a National Science Career Award recipient and CS professor at the University of Montana) , had written some idea code  and asked for my help making it production ready. I refactored and polished it up a bit and wrote some tests around it.  This was a personal project (wrote this at night after day job at Doba).
 
-Interesting features: Rob wanted the code to be usable as a single, standalone file, and as a gem executable.
+Interesting feature: Rob wanted the code to be usable as a single, standalone file, and as a gem executable.
 
-### Savgol
+### [Savgol](https://github.com/princelab/savgol)
 
 The Savitsky-Golay filter does a much better job at smoothing most data than, say, a moving average which tends to depress extrema.  I wanted to be able to use it with zero dependencies in Ruby.
 
 Interesting feature: I also wrote a polynomial regressor for this package to handle unevenly spaced data but with the same interface as the digital savgol filter.
 
-[savgol](https://github.com/princelab/savgol)
+### [Diadem](https://github.com/princelab/diadem)
 
-* [savgol.rb](https://github.com/princelab/savgol/blob/master/lib/savgol.rb)
-
-### Rserve-simpler - simple R interface
-
-Wrapper around the fairly performant Rserve library for binary communication with an R server.
-
-[rserve-simpler](https://github.com/jtprince/rserve-simpler)
-
-* Example usage in [mspire-lipid](https://github.com/princelab/mspire-lipid/blob/master/lib/mspire/lipid/search/probability_distribution.rb)
-
-### Diadem - large project built on top of libraries I authored
-
-I wrote this package to do analyeses for the JC Price at BYU. The package facilitated calculation of various mass isotopomer distributions.
-
-[diadem](https://github.com/princelab/diadem)
+I wrote this package to do analyses for the JC Price laboratory at BYU. The package facilitated calculation of various mass isotopomer distributions.
 
 * [calculator.rb](https://github.com/princelab/diadem/blob/master/lib/diadem/calculator.rb)
 * [isotope_distribution.rb](https://github.com/princelab/diadem/blob/master/lib/diadem/isotope_distribution.rb)
 
-### A few other projects of note
+## Other projects of note
 
 * mspire: [pubmed](https://www.ncbi.nlm.nih.gov/pubmed/18930952) | [rewrite](https://github.com/princelab/mspire) - library to handle major mass spectrometry data formats, including features like random access to massive, indexed xml files.
 * rubabel: [pubmed](https://www.ncbi.nlm.nih.gov/pubmed/18930952) | [repo](https://github.com/princelab/rubabel) - ruby interface (and many add-on features) to the openbabel gem.
