@@ -2,36 +2,26 @@
 
 I've written dozens of packages (many quite extensive) for different languages (e.g., Ruby and Python) and hundreds of scripts.  Most of them can be found at [my github page](https://github.com/jtprince) or [my lab's github page](https://github.com/princelab).
 
-### Out-of-stock risk
+Like any programmer, I can almost always critique (and hopefully improve) my own code.  Some of the code below is very clean, modular, single-purpose code.  Some of it could be improved (mainly shorter methods with more focus per method).
+
+*Click on the topic heading to be taken directly to code (or where proprietary to other artifacts).*
+
+### [Out-of-stock risk](https://github.com/jtprince/portfolio/#out-of-stock-risk)
 
 Some of the best data science/engineering code that I've written lately is proprietary.  A good example of such a project is out-of-stock risk prediction which I've briefly described with images [on my portfolio page](https://github.com/jtprince/portfolio/#out-of-stock-risk).  Coded mainly using numpy/scipy.
 
-### Django-gtin-fields
+### [Django-gtin-fields](https://github.com/CruxConnect/django-gtin-fields)
 
-I've written a ton of python code for Doba and CruxConnect over the past 4.5 years, but almost all of it is proprietary.
+I've written a ton of python code for Doba and CruxConnect over the past 4.5 years, but almost all of it is proprietary.  I was given permission to open-source this package, which is solid, thought fairly unexciting python/django code.
 
-I was given permission to open-source this package, which is solid, unexiting python/django code.
-
-Interesting features: concise/readable UPCA -> UPCE conversion.
-
-Potential improvements: Could use a bit more modularization in spots.
-
-[django-gtin-fields](https://github.com/CruxConnect/django-gtin-fields)
+Interesting features: concise/readable UPCA -> UPCE conversion that improve upon existing implementations.
 
 * [validators.py](https://github.com/CruxConnect/django-gtin-fields/blob/master/gtin_fields/validators.py)
 * [converters.py](https://github.com/CruxConnect/django-gtin-fields/blob/master/gtin_fields/converters.py)
 
-### Screenshot - concise standalone script
+### [Screenshot](https://github.com/jtprince/dotfiles/blob/master/bin/sc)
 
-High-level control over screenshots in 90 lines of source code.
-
-Interesting features: compact help message which also uses color to distinguish some options.
-
-Potential improvements: If I were using more color then I would use a library for that purpose (e.g., colorize or highline)
-
-[screenshot](https://github.com/jtprince/dotfiles/blob/master/bin/sc)
-
-Easy to take a screenshot of this one:
+Simple, high-level control over screenshots in 90 lines of source code.
 
 ![example](media/code-examples/sc-example-2019-04-03--01-14-10.png)
 
@@ -41,15 +31,11 @@ My collaborator, Rob Smith (a National Science Career Award recipient and CS pro
 
 Interesting features: Rob wanted the code to be usable as a single, standalone file, and as a gem executable.
 
-Potential improvements: More modularization (i.e., shorter code blocks; single purpose) and more/better tests.
-
 ### Savgol
 
 The Savitsky-Golay filter does a much better job at smoothing most data than, say, a moving average which tends to depress extrema.  I wanted to be able to use it with zero dependencies in Ruby.
 
 Interesting feature: I also wrote a polynomial regressor for this package to handle unevenly spaced data but with the same interface as the digital savgol filter.
-
-Potential improvements: More modularization (i.e., shorter code blocks; single purpose).
 
 [savgol](https://github.com/princelab/savgol)
 
@@ -66,8 +52,6 @@ Wrapper around the fairly performant Rserve library for binary communication wit
 ### Diadem - large project built on top of libraries I authored
 
 I wrote this package to do analyeses for the JC Price at BYU. The package facilitated calculation of various mass isotopomer distributions.
-
-Potential improvements: More modularization.
 
 [diadem](https://github.com/princelab/diadem)
 
