@@ -1,10 +1,10 @@
 # Selected Code Examples
 
-I've written dozens of packages (many quite extensive) for different languages (e.g., Ruby and Python) and hundreds of scripts.  Most of them can be found at [my github page](https://github.com/jtprince) or [my lab's github page](https://github.com/princelab).
+I've written dozens of packages (many quite extensive) for different languages and hundreds (thousands?) of scripts.  Most of them can be found at [my github page](https://github.com/jtprince) or [my lab's github page](https://github.com/princelab).  My [portfolio](https://github.com/jtprince/portfolio/) discusses and displays some of these projects in more depth.
 
 Like any programmer, I can almost always critique, and hopefully improve, my own code.  Some of the code below is clean and single-purpose with good names and organization.  Some of it could be improved--mainly shorter methods with a single-purpose per method.  In general, I strive to write "clean code" using the transcendent principles discussed in books like [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) (by Robert "Uncle Bob" Martin).
 
-Click on the topic heading to be taken directly to code (where available).  The projects are sorted generally from small and simple to large and complex (and more technical).
+Click on the topic heading to be taken directly to code (where available).  The projects are sorted generally from small and simple to large and complex or more technical.
 
 ### [Django-gtin-fields](https://github.com/CruxConnect/django-gtin-fields)
 
@@ -27,9 +27,9 @@ Wrapper around the fairly performant Rserve library for binary communication wit
 
 ### [MSabundanceSIM](https://github.com/jtprince/MSabundanceSIM)
 
-My collaborator, Rob Smith (a National Science Career Award recipient and CS professor at the University of Montana) , had written some idea code  and asked for my help making it production ready. I refactored and polished it up a bit and wrote some tests around it.  This was a personal project (wrote this at night after day job at Doba).
+My collaborator, Rob Smith (a National Science Career Award recipient and CS professor at the University of Montana), had written some idea code and asked for my help making it production ready. I refactored and polished it up a bit and wrote some tests around it.  This was a personal project (wrote this at night after day job at Doba).
 
-Interesting feature: Rob wanted the code to be usable as a single, standalone file, and as a gem executable.
+Interesting feature: Rob wanted the code to be usable as a single, standalone file, and as a gem executable, which this architecture accomplished.
 
 ### [Savgol](https://github.com/princelab/savgol)
 
@@ -54,7 +54,7 @@ Some of the best data science and engineering code that I've written lately is p
 
 ## Other projects/code of note
 
-Among the many other code projects I have completed and/or published, a few others stand out:
+Among the many other code projects I have completed and/or published, a few others stand out for their size, elegance, or complexity:
 
 * [mspire](https://github.com/princelab/mspire) ([pubmed](https://www.ncbi.nlm.nih.gov/pubmed/18930952)): library to handle major mass spectrometry data formats, including features like random access to massive, indexed xml files
 * [rubabel](https://github.com/princelab/rubabel) ([pubmed](https://www.ncbi.nlm.nih.gov/pubmed/18930952)): ruby interface (and many add-on features) to the openbabel gem
