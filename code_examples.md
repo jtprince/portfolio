@@ -1,4 +1,4 @@
-# Code Examples
+# Selected Code Examples
 
 I've written dozens of packages (many quite extensive) for different languages (e.g., Ruby and Python) and hundreds of scripts.  Most of them can be found at [my github page](https://github.com/jtprince) or [my lab's github page](https://github.com/princelab).
 
@@ -48,13 +48,15 @@ I wrote this package to do analyses for the JC Price laboratory at BYU. The pack
 * [calculator.rb](https://github.com/princelab/diadem/blob/master/lib/diadem/calculator.rb)
 * [isotope_distribution.rb](https://github.com/princelab/diadem/blob/master/lib/diadem/isotope_distribution.rb)
 
-## Other projects of note
+## Other projects/code of note
 
-* [mspire](https://github.com/princelab/mspire) ([pubmed](https://www.ncbi.nlm.nih.gov/pubmed/18930952))): library to handle major mass spectrometry data formats, including features like random access to massive, indexed xml files
+Among the many other code projects I have completed and/or published, a few others stand out:
+
+* [mspire](https://github.com/princelab/mspire) ([pubmed](https://www.ncbi.nlm.nih.gov/pubmed/18930952)): library to handle major mass spectrometry data formats, including features like random access to massive, indexed xml files
 * [rubabel](https://github.com/princelab/rubabel) ([pubmed](https://www.ncbi.nlm.nih.gov/pubmed/18930952)): ruby interface (and many add-on features) to the openbabel gem
 * [mspire-molecular_formula](https://github.com/princelab/mspire-molecular_formula): DSL for molecular formulas and tons of useful calculations and some basic manipulation
 * [mspire-obo](https://github.com/princelab/mspire-obo): generic handling of ontology files for mass spectrometry terms.
 * [ruby-emass](https://github.com/princelab/ruby-emass): ruby implementation of emass, an ultra-high accuracy isotope mass calculator
-* [obiwarp](https://sourceforge.net/projects/obi-warp/files/obiwarp/)([pubmed](https://www.ncbi.nlm.nih.gov/pubmed/16944896) | [integration into R](https://rdrr.io/bioc/xcms/man/retcor.obiwarp-methods.html)): Chromatographic alignment of proteomic data sets by ordered bijective interpolated warping
+* [obiwarp](https://sourceforge.net/projects/obi-warp/files/obiwarp/) ([pubmed](https://www.ncbi.nlm.nih.gov/pubmed/16944896) | [integration into R](https://rdrr.io/bioc/xcms/man/retcor.obiwarp-methods.html)): Chromatographic alignment of proteomic data sets by ordered bijective interpolated warping
 * [histogram](https://github.com/jtprince/histogram): Generates histograms similar to R's hist and numpy's histogram functions and has implementations for common auto-bin algorithms
 * [binneroc](https://github.com/jtprince/binneroc): constant time binning
