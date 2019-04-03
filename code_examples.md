@@ -2,15 +2,15 @@
 
 I've written dozens of packages (many quite extensive) for different languages (e.g., Ruby and Python) and hundreds of scripts.  Most of them can be found at [my github page](https://github.com/jtprince) or [my lab's github page](https://github.com/princelab).
 
-Like any programmer, I can almost always critique (and hopefully improve) my own code.  Some of the code below is very clean, modular, single-purpose code with good names.  Some of it could be improved (mainly shorter methods with more single-purpose per method).  In general, a strive to write "clean code", using such principles discussed by ["Uncle Bob"](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882).
+Like any programmer, I can almost always critique (and hopefully improve) my own code.  Some of the code below is very clean, modular, single-purpose code with good names.  Some of it could be improved (mainly shorter methods with more single-purpose per method).  In general, I strive to write "clean code", especially using the principles discussed by ["Uncle Bob"](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882).
 
 Click on the topic heading to be taken directly to code (where available).  The projects are roughly sorted from small, simple and generic to large, complex, and fairly specific/technical.
 
 ### [Django-gtin-fields](https://github.com/CruxConnect/django-gtin-fields)
 
-I've written a ton of python code for Doba and CruxConnect over the past 4.5 years, but almost all of it is proprietary.  I was given permission to open-source this package, which is solid, thought fairly unexciting python/django code.
+I've written a ton of python code for Doba and CruxConnect over the past 4.5 years, but almost all of it is proprietary.  I was given permission to open-source this package, which is solid, though fairly unexciting python/django code.
 
-Interesting features: concise/readable UPCA -> UPCE conversion that improve upon existing implementations.
+Interesting features: concise/readable UPCA -> UPCE conversion that improves somewhat upon existing implementations.
 
 * [validators.py](https://github.com/CruxConnect/django-gtin-fields/blob/master/gtin_fields/validators.py)
 * [converters.py](https://github.com/CruxConnect/django-gtin-fields/blob/master/gtin_fields/converters.py)
@@ -19,7 +19,7 @@ Interesting features: concise/readable UPCA -> UPCE conversion that improve upon
 
 Simple, high-level control over screenshots in 90 lines of source code.
 
-<a href="media/code-examples/sc-example-2019-04-03--01-13-14.png"><img src="media/code-examples/sc-example-2019-04-03--01-13-14.png" width="500"/></a>
+<a href="media/code-examples/sc-example-2019-04-03--01-13-14.png"><img src="media/code-examples/sc-example-2019-04-03--01-13-14.png" width="600"/></a>
 
 ### [Out-of-stock risk](https://github.com/jtprince/portfolio/#out-of-stock-risk)
 
@@ -50,11 +50,11 @@ I wrote this package to do analyses for the JC Price laboratory at BYU. The pack
 
 ## Other projects of note
 
-* mspire: [pubmed](https://www.ncbi.nlm.nih.gov/pubmed/18930952) | [rewrite](https://github.com/princelab/mspire) - library to handle major mass spectrometry data formats, including features like random access to massive, indexed xml files.
-* rubabel: [pubmed](https://www.ncbi.nlm.nih.gov/pubmed/18930952) | [repo](https://github.com/princelab/rubabel) - ruby interface (and many add-on features) to the openbabel gem.
-* mspire-molecular_formula: [repo](https://github.com/princelab/mspire-molecular_formula) - DSL for molecular formulas and tons of useful calculations and some basic manipulation.
-* mspire-obo: [repo](https://github.com/princelab/mspire-obo) - generic handling of ontology files for mass spectrometry terms.
-* ruby-emass: [repo](https://github.com/princelab/ruby-emass) - ruby implementation of the emass, an ultra-high accuracy isotope peak mass calculator.
-* obiwarp: [pubmed](https://www.ncbi.nlm.nih.gov/pubmed/16944896) | [repo](https://sourceforge.net/projects/obi-warp/files/obiwarp/) | [integration into R](https://rdrr.io/bioc/xcms/man/retcor.obiwarp-methods.html)
-* histogram: [repo](https://github.com/jtprince/histogram) - Generates histograms similar to R's hist and numpy's histogram functions and has implementations for common auto-bin algorithms.
-* binneroc: [repo](https://github.com/jtprince/binneroc) - constant time binning.
+* [mspire](https://github.com/princelab/mspire) ([pubmed](https://www.ncbi.nlm.nih.gov/pubmed/18930952))): library to handle major mass spectrometry data formats, including features like random access to massive, indexed xml files
+* [rubabel](https://github.com/princelab/rubabel) ([pubmed](https://www.ncbi.nlm.nih.gov/pubmed/18930952)): ruby interface (and many add-on features) to the openbabel gem
+* [mspire-molecular_formula](https://github.com/princelab/mspire-molecular_formula): DSL for molecular formulas and tons of useful calculations and some basic manipulation
+* [mspire-obo](https://github.com/princelab/mspire-obo): generic handling of ontology files for mass spectrometry terms.
+* [ruby-emass](https://github.com/princelab/ruby-emass): ruby implementation of emass, an ultra-high accuracy isotope mass calculator
+* [obiwarp](https://sourceforge.net/projects/obi-warp/files/obiwarp/)([pubmed](https://www.ncbi.nlm.nih.gov/pubmed/16944896) | [integration into R](https://rdrr.io/bioc/xcms/man/retcor.obiwarp-methods.html)): Chromatographic alignment of proteomic data sets by ordered bijective interpolated warping
+* [histogram](https://github.com/jtprince/histogram): Generates histograms similar to R's hist and numpy's histogram functions and has implementations for common auto-bin algorithms
+* [binneroc](https://github.com/jtprince/binneroc): constant time binning
