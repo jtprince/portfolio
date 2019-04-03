@@ -23,7 +23,7 @@ Interesting features: concise/readable UPCA -> UPCE conversion that improve upon
 
 Simple, high-level control over screenshots in 90 lines of source code.
 
-![example](media/code-examples/sc-example-2019-04-03--01-14-10.png)
+![example](media/code-examples/sc-example-2019-04-03--01-13-14.png)
 
 ### MSabundanceSIM - small science project
 
