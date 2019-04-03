@@ -2,9 +2,9 @@
 
 I've written dozens of packages (many quite extensive) for different languages (e.g., Ruby and Python) and hundreds of scripts.  Most of them can be found at [my github page](https://github.com/jtprince) or [my lab's github page](https://github.com/princelab).
 
-Like any programmer, I can almost always critique (and hopefully improve) my own code.  Some of the code below is very clean, modular, single-purpose code with good names.  Some of it could be improved (mainly shorter methods with more single-purpose per method).  In general, I strive to write "clean code", especially using the principles discussed by ["Uncle Bob"](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882).
+Like any programmer, I can almost always critique, and hopefully improve, my own code.  Some of the code below is clean and single-purpose with good names and organization.  Some of it could be improved--mainly shorter methods with a single-purpose per method.  In general, I strive to write "clean code" using the transcendent principles discussed in books like [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) (by Robert "Uncle Bob" Martin).
 
-Click on the topic heading to be taken directly to code (where available).  The projects are roughly sorted from small, simple and generic to large, complex, and fairly specific/technical.
+Click on the topic heading to be taken directly to code (where available).  The projects are sorted generally from small and simple to large and complex (and more technical).
 
 ### [Django-gtin-fields](https://github.com/CruxConnect/django-gtin-fields)
 
@@ -20,10 +20,6 @@ Interesting features: concise/readable UPCA -> UPCE conversion that improves som
 Simple, high-level control over screenshots in 90 lines of source code.
 
 <a href="media/code-examples/sc-example-2019-04-03--01-13-14.png"><img src="media/code-examples/sc-example-2019-04-03--01-13-14.png" width="600"/></a>
-
-### [Out-of-stock risk](https://github.com/jtprince/portfolio/#out-of-stock-risk)
-
-Some of the best data science/engineering code that I've written lately is proprietary.  A good example of such a project is out-of-stock risk prediction which I've briefly described with images [on my portfolio page](https://github.com/jtprince/portfolio/#out-of-stock-risk).  Coded mainly using numpy/scipy.
 
 ### [Rserve-simpler](https://github.com/jtprince/rserve-simpler)
 
@@ -47,6 +43,14 @@ I wrote this package to do analyses for the JC Price laboratory at BYU. The pack
 
 * [calculator.rb](https://github.com/princelab/diadem/blob/master/lib/diadem/calculator.rb)
 * [isotope_distribution.rb](https://github.com/princelab/diadem/blob/master/lib/diadem/isotope_distribution.rb)
+
+## Proprietary Code
+
+Some of the best data science and engineering code that I've written lately is proprietary.  These link to a brief description and artifacts or images from those projects.
+
+* [Out of Stock Risk forecasting](https://github.com/jtprince/portfolio/#out-of-stock-risk)
+* [CruxConnect RESTful architecture](https://github.com/jtprince/portfolio#restful-architecture)
+* [Stateful Elasticsearch-based search](https://github.com/jtprince/portfolio#stateful-elasticsearch-based-search)
 
 ## Other projects/code of note
 
