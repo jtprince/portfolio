@@ -3,7 +3,7 @@
 * [curriculum vitae](http://tiny.cc/jtprince-cv)
 * [résumé](http://tiny.cc/jtprince-resume)
 * [code examples](https://github.com/jtprince/portfolio/blob/master/code_examples.md)
-* [github](https://github.com/jtprince) / [Prince laboratory github](https://github.com/princelab)
+* [github](https://github.com/jtprince) / [prince laboratory github](https://github.com/princelab)
 * [publications on pubmed](http://tiny.cc/jtprince-publications) (34 total; 21 peer reviewed computational or algorithmic publications)
 * [software development and data analysis philosophy](https://github.com/jtprince/portfolio/blob/master/philosophy.md)
 * [favorite tools](https://github.com/jtprince/portfolio/blob/master/favorite_tools.md)
