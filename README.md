@@ -1,4 +1,4 @@
-# John T. Prince
+# John T. Prince, PhD
 
 * [curriculum vitae](http://tiny.cc/jtprince-cv)
 * [résumé](http://tiny.cc/jtprince-resume)
