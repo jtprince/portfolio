@@ -15,7 +15,7 @@
 
 ## Mass spectrometry \*-omics
 
-I spent 13 years in academia processing, registering, reassembling, and making biological sense of a huge array of complex \*-omic mass spectrometry experiments (see the tutorial I co-authored, [Proteomics, lipidomics, metabolomics: a mass spectrometry tutorial from a computer scientist's point of view](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4110734/pdf/1471-2105-15-S7-S9.pdf), and [this presentation about our lab's projects](https://docs.google.com/viewer?url=https://github.com/jtprince/portfolio/raw/a74287187c579ff5f820934473d704e81ca318d4/media/prince-lab/The_Prince_Lab.pdf)) to get a sense for the challenges inherent to the discipline).  Below is one visualization I created (a simplification of the data, to be sure) of the data produced by a single biological sample in a run-of-the-mill analysis.
+I spent 13 years in academia processing, registering, reassembling, and making biological sense of a huge array of complex \*-omic mass spectrometry experiments.  See the tutorial I co-authored, [Proteomics, lipidomics, metabolomics: a mass spectrometry tutorial from a computer scientist's point of view](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4110734/pdf/1471-2105-15-S7-S9.pdf), and [this presentation about our lab's projects](https://docs.google.com/viewer?url=https://github.com/jtprince/portfolio/raw/a74287187c579ff5f820934473d704e81ca318d4/media/prince-lab/The_Prince_Lab.pdf) to get a sense for the challenges inherent to the discipline.  Below is one visualization I created (a simplification of the data, to be sure) of the data produced by a single biological sample in a run-of-the-mill analysis.
 
 
 <a href="media/visualization/ms-data.png"><img src="media/visualization/ms-data.png" width="1051"/></a>
