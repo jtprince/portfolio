@@ -15,6 +15,13 @@
 
 # Representative Projects
 
+## Mass spectrometry \*-omics
+
+I spent 13 years in academia processing, registering, reassembling, and making biological sense of a huge array of complex \*-omic mass spectrometry experiments (see the tutorial I co-authored: [Proteomics, lipidomics, metabolomics: a mass spectrometry tutorial from a computer scientist's point of view](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4110734/pdf/1471-2105-15-S7-S9.pdf) to get a sense for the challenges inherent to the low-level signal processing component of the discipline).  Below is one visualization I created (a simplification of the data, to be sure) of the data produced by a single biological sample in a run-of-the-mill analysis.
+
+
+<a href="media/visualization/ms-data.png"><img src="media/visualization/ms-data.png" width="1051"/></a>
+
 ## Out of Stock Risk
 
 Developed custom Holt-Winters (triple exponential) forecasting:
