@@ -4,7 +4,7 @@
 * [résumé](http://tiny.cc/jtprince-resume)
 * [code examples](https://github.com/jtprince/portfolio/blob/master/code_examples.md)
 * [github](https://github.com/jtprince) / [prince laboratory github](https://github.com/princelab)
-* [publications on pubmed](http://tiny.cc/jtprince-publications) (34 total; 21 peer reviewed computational or algorithmic publications)
+* [publications on pubmed](http://tiny.cc/jtprince-publications) (34 total; 21 peer reviewed algorithmic or software-centric publications)
 * [princelab projects](https://docs.google.com/viewer?url=https://github.com/jtprince/portfolio/raw/a74287187c579ff5f820934473d704e81ca318d4/media/prince-lab/The_Prince_Lab.pdf)
 * [software development and data analysis philosophy](https://github.com/jtprince/portfolio/blob/master/philosophy.md)
 * [favorite tools](https://github.com/jtprince/portfolio/blob/master/favorite_tools.md)
