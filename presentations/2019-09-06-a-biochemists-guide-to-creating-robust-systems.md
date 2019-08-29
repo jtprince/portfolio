@@ -1,5 +1,10 @@
 
 
+## 
+
+One person's opinion
+
+
 Do the right thing
 
 For the right reasons
@@ -20,9 +25,31 @@ keyword joke slides?
     dynamic, scalable systems
     concurrency
 
-Isomorphism is the key to automation
+## DRY
+
+Don't repeat yourself
+
+## DRY is the key to discovering your language's potential
+
+
+## Isomorphism is the key to automation
 
     - DNA Replicase
+
+## More functional > better programming
+
+Avoid side-effects
+Stop modifying your objects
+
+## Immutability
+
+Code like a functional programmer
+
+
+
+
+
+Why `sorted` is usually better than `sort`
 
 On estimates
 
