@@ -3,6 +3,10 @@
 
 * If they teach it, then it's not sticking
 
+This is not a TED talk... where I can draw clear, helpful analogies to the
+biological world I have, but I have tried not to create analogies for
+aesthetic appeal.
+
 ## 
 
 One person's opinion
@@ -34,7 +38,14 @@ keyword joke slides?
 
 ## Replicating code allows for speciation!
 
+    Kaibab vs. Abert's Grand Canyon speciation
+    http://cosbiology.pbworks.com/f/1268762052/13.03.GeographicIsolationMap.JPG
     Potentially breaks isomorphism
+
+## Hard shell, soft-squishy middle
+
+    Internally, by implicit contract (typing?)
+    Externally, expect anything that can go wrong to go wrong.
 
 ## DRY
 
@@ -59,7 +70,9 @@ Code like a functional programmer
 
 ## Solve problems "late"
 
-## 
+## Dumb messages, smart consumers
+
+Androgen Insensitivity Syndrome (AIS)
 
 On estimates
 
@@ -84,10 +97,42 @@ Write code for humans, not the machine
 If you are using indices in your loop in a higher level language, you are
 probably doing it wrong.
 
-## 
+## Dumb messages, smart consumers
 
-Dumb messages, smart consumers (??)
+* Different communication patterns have different implications
+* 
 
+
+## Putting it together
+
+```python
+if connection.info.transaction_status == psql.extensions.TRANSACTION_STATUS_IDLE:
+    return "TRANSACTION_STATUS_IDLE"
+elif connection.info.transaction_status == psql.extensions.TRANSACTION_STATUS_ACTIVE:
+    return "TRANSACTION_STATUS_ACTIVE"
+elif connection.info.transaction_status == psql.extensions.TRANSACTION_STATUS_INTRANS:
+    return "TRANSACTION_STATUS_INTRANS"
+elif connection.info.transaction_status == psql.extensions.TRANSACTION_STATUS_INERROR:
+    return "TRANSACTION_STATUS_INERROR"
+elif connection.info.transaction_status == psql.extensions.TRANSACTION_STATUS_UNKNOWN:
+    return "TRANSACTION_STATUS_UNKNOWN"
+else:
+    return "unknown transaction status"
+```
+
+* Not DRY
+* logic is mixed with data
+
+```python
+CONNECTION_STATUSES = {
+    psql.extensions.TRANSACTION_STATUS_IDLE: "TRANSACTION_STATUS_IDLE"
+    psql.extensions.TRANSACTION_STATUS_ACTIVE: "TRANSACTION_STATUS_ACTIVE"
+    psql.extensions.TRANSACTION_STATUS_INTRANS: "TRANSACTION_STATUS_INTRANS"
+    psql.extensions.TRANSACTION_STATUS_INERROR: "TRANSACTION_STATUS_INERROR"
+    psql.extensions.TRANSACTION_STATUS_UNKNOWN: "TRANSACTION_STATUS_UNKNOWN"
+}
+return statues.get(connection.status, "unknown transaction status")
+```
 
 
 Choose your ecosystem wisely and use it well
