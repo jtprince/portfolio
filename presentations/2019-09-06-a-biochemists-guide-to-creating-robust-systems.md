@@ -32,6 +32,10 @@ keyword joke slides?
     dynamic, scalable systems
     concurrency
 
+## Hard shell, squishy insides
+
+
+
 ## Isomorphism is the key to automation
 
     - DNA Replicase
