@@ -114,8 +114,6 @@ if connection.info.transaction_status == psql.extensions.TRANSACTION_STATUS_IDLE
     return "TRANSACTION_STATUS_IDLE"
 elif connection.info.transaction_status == psql.extensions.TRANSACTION_STATUS_ACTIVE:
     return "TRANSACTION_STATUS_ACTIVE"
-elif connection.info.transaction_status == psql.extensions.TRANSACTION_STATUS_INTRANS:
-    return "TRANSACTION_STATUS_INTRANS"
 elif connection.info.transaction_status == psql.extensions.TRANSACTION_STATUS_INERROR:
     return "TRANSACTION_STATUS_INERROR"
 elif connection.info.transaction_status == psql.extensions.TRANSACTION_STATUS_UNKNOWN:
@@ -132,7 +130,6 @@ CONNECTION_STATUSES = {
     psql.extensions.TRANSACTION_STATUS_IDLE: "TRANSACTION_STATUS_IDLE"
     psql.extensions.TRANSACTION_STATUS_ACTIVE: "TRANSACTION_STATUS_ACTIVE"
     psql.extensions.TRANSACTION_STATUS_INTRANS: "TRANSACTION_STATUS_INTRANS"
-    psql.extensions.TRANSACTION_STATUS_INERROR: "TRANSACTION_STATUS_INERROR"
     psql.extensions.TRANSACTION_STATUS_UNKNOWN: "TRANSACTION_STATUS_UNKNOWN"
 }
 return statues.get(connection.status, "unknown transaction status")
