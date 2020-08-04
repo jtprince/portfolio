@@ -3,6 +3,8 @@ My exposure level to particular technologies:
 
 ### Languages
 
+| tech | exposure |
+| :--- | :--- |
 | ruby | high |
 | python | high |
 | R | medium |
@@ -13,6 +15,8 @@ My exposure level to particular technologies:
 
 ### Version control and CI/CD
 
+| tech | exposure |
+| :--- | :--- |
 | svn | medium |
 | git | high |
 | github | high |
@@ -23,6 +27,8 @@ My exposure level to particular technologies:
 
 ### AWS
 
+| tech | exposure |
+| :--- | :--- |
 | Serverless (the framework) | medium |
 | Kinesis | medium |
 | SQS | medium |
@@ -38,16 +44,22 @@ My exposure level to particular technologies:
 
 ### Stream processing (outside Kinesis)
 
+| tech | exposure |
+| :--- | :--- |
 | Kafka (AWS MSK) | medium |
 | Faust (asynchronous stream processing) | medium |
 
 ### Search
 
+| tech | exposure |
+| :--- | :--- |
 | Elasticsearch | medium |
 | python elasticsearch-dsl | medium |
 
 ### Python platforms and packages
 
+| tech | exposure |
+| :--- | :--- |
 | django | medium |
 | django rest framework (DRF) | medium |
 | sqlalchemy | medium |
@@ -74,6 +86,8 @@ My exposure level to particular technologies:
 
 ### Data science
 
+| tech | exposure |
+| :--- | :--- |
 | scipy | some |
 | matplotlib | medium |
 | gnuplot | high |
