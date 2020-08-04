@@ -4,7 +4,9 @@
 
 * [curriculum vitae](http://tiny.cc/jtprince-cv)
 * [résumé](http://tiny.cc/jtprince-resume)
-* [publications on pubmed](http://tiny.cc/jtprince-publications) (34 total; 21 peer reviewed algorithmic or software-centric publications)
+* [publications on pubmed](http://tiny.cc/jtprince-publications)
+    * 34 total
+    * 21 peer reviewed algorithmic or software-centric publications
 
 ### Projects and examples
 
@@ -20,6 +22,6 @@
 ### Philosophy and tools
 
 * [software development and data analysis philosophy](https://github.com/jtprince/portfolio/blob/master/philosophy.md)
-* [Enterprise software development from a biochemistry professor's point of view](https://docs.google.com/viewer?url=https://github.com/jtprince/portfolio/raw/9c9b2bd540c62530a998455db1dc98bc002aa679/media/enterprise_software_dev_from_biochem_prof_pov_3plcentral_v2.pdf) (2019 presentation at U of Montana CS dept)
+* [2019 presentation at Univ of Montana CS department](https://docs.google.com/viewer?url=https://github.com/jtprince/portfolio/raw/9c9b2bd540c62530a998455db1dc98bc002aa679/media/enterprise_software_dev_from_biochem_prof_pov_3plcentral_v2.pdf)
 * [specific technology exposure](https://github.com/jtprince/portfolio/blob/master/exposure.md)
 * [favorite tools](https://github.com/jtprince/portfolio/blob/master/favorite_tools.md)
