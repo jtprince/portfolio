@@ -9,7 +9,11 @@
 * [software development and data analysis philosophy](https://github.com/jtprince/portfolio/blob/master/philosophy.md)
 * [favorite tools](https://github.com/jtprince/portfolio/blob/master/favorite_tools.md)
 
----
+# Recent presentation
+
+In the fall of 2019, I was invited to present to the Computer Science department at the University of Montana:
+
+Enterprise software development from a biochemistry professor's point of view
 
 # Representative Projects
 

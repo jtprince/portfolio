@@ -8,7 +8,7 @@ Click on the topic heading to be taken directly to code (where available).  The 
 
 ### [Django-gtin-fields](https://github.com/CruxConnect/django-gtin-fields)
 
-I've written a ton of python code for Doba and CruxConnect over the past 4.5 years, but almost all of it is proprietary.  I was given permission to open-source this package which is solid, though fairly unexciting, python/django code.
+I wrote a ton of python code for Doba and CruxConnect for the 4.5 years I was there, but almost all of it is proprietary.  I was given permission to open-source this package which is solid, though fairly unexciting, python/django code.
 
 Interesting features: concise/readable UPCA -> UPCE conversion that improves somewhat upon existing implementations.
 
