@@ -23,5 +23,5 @@
 
 * [software development and data analysis philosophy](https://github.com/jtprince/portfolio/blob/master/philosophy.md)
 * [2019 presentation at Univ of Montana CS department](https://docs.google.com/viewer?url=https://github.com/jtprince/portfolio/raw/9c9b2bd540c62530a998455db1dc98bc002aa679/media/enterprise_software_dev_from_biochem_prof_pov_3plcentral_v2.pdf)
-* [specific technology exposure](https://github.com/jtprince/portfolio/blob/master/exposure.md)
+* [technology proficiencies](https://github.com/jtprince/portfolio/blob/master/technology_proficiencies.md)
 * [favorite tools](https://github.com/jtprince/portfolio/blob/master/favorite_tools.md)
