@@ -48,9 +48,9 @@ I wrote this package to do analyses for the JC Price laboratory at BYU. The pack
 
 Some of the best data science and engineering code that I've written lately is proprietary.  These link to a brief description and artifacts or images from those projects.
 
-* [Out of Stock Risk forecasting](https://github.com/jtprince/portfolio/#out-of-stock-risk)
-* [CruxConnect RESTful architecture](https://github.com/jtprince/portfolio#restful-architecture)
-* [Stateful Elasticsearch-based search](https://github.com/jtprince/portfolio#stateful-elasticsearch-based-search)
+* [Out of Stock Risk forecasting](https://github.com/jtprince/portfolio/blob/master/representative_projects.md#out-of-stock-risk)
+* [CruxConnect RESTful architecture](https://github.com/jtprince/portfolio/blob/master/representative_projects.md#restful-architecture)
+* [Stateful Elasticsearch-based search](https://github.com/jtprince/portfolio/blob/master/representative_projects.md#stateful-elasticsearch-based-search)
 
 ## Other projects/code of note
 
