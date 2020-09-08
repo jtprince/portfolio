@@ -20,17 +20,6 @@ Python best practices with a focus on firmware scripting
 * style and formatting
 * stdlib tools you could/should be using
 
-# Qualifications
-
-* 14 years of scientific programming (C/C++, perl, R, ruby, sciruby, etc.)
-* 6 years enterprise software development and data science in python
-* Write tons of scripts to do just about everything
-* Care about clean, beautiful code
-
-I'm open to learning new and better ways and re-evaluating dogmas.\*
-
-\*except linux vs windows, vim vs. emacs, tabs vs. spaces, K&R vs. kernel braces, etc
-
 # Why Best Practices
 
 Because *reasons*.
@@ -339,9 +328,9 @@ chain.from_iterable(['ABC', 'DEF']) # --> A B C D E F
 ```python
 from itertools import dropwhile, takewhile
 
-dropwhile(lambda x: x<5, [1,4,6,4,1]) # --> 6 4 1
-
 takewhile(lambda x: x<5, [1,4,6,4,1]) # --> 1 4
+
+dropwhile(lambda x: x<5, [1,4,6,4,1]) # --> 6 4 1
 ```
 
 # itertools: others
