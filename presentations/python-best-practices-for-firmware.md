@@ -122,18 +122,64 @@ poetry add arrow
 poetry add --dev ipython flake8 pytest
 ```
 
+# Use a style guide
+
+We use the [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+
 # Formatting and style tools
 
 Recommended:
 
 * flake8 - fast linter
-* pylint - deep linter
+* pylint - aggressive deep linter
 * black - opinionated formatter
 * isort - sorts and formats your imports
 
 Enforce many best practices!
 
 **Can be integrated into your editor or IDE.**
+
+# Test your code!
+
+We use *Pytest*, and it's lightweight and robust.
+
+```python
+def feature(some_param=1):
+    return some_param
+
+...
+
+def test_feature():
+    """ Does the one thing I am testing. """
+    expected = 1
+    assert feature() == expected
+
+def test_feature_with_flag():
+    """ Does the other one thing I am testing. """
+    ...
+```
+
+It's barely more initial work to wrap your "commandline test" in a test, and
+then you get the benefits of automation and ability to refactor with some
+confidence.
+
+# Code coverage
+
+```bash
+$ poetry add --dev pytest-coverage
+$ pytest --cov=./ ./tests/
+```
+
+```bash
+Name                            Stmts   Miss  Cover
+---------------------------------------------------
+example_project/__init__.py         1      0   100%
+main.py                             6      6     0%
+tests/__init__.py                   0      0   100%
+tests/test_example_project.py       3      0   100%
+---------------------------------------------------
+TOTAL                              10      6    40%
+```
 
 # Avoid one-letter variables
 
@@ -236,7 +282,6 @@ my_vals = set([str(val) for val in [1, 2, 3, 3, 9, 2]])
 
 # f-strings FTW
 
-*old school '%' formatting:*
 ```python
 for cnt, value in enumerate([1,2,3,4,5]):
 
@@ -248,6 +293,12 @@ for cnt, value in enumerate([1,2,3,4,5]):
 
     # F-strings are easier to read (python 3.6+)
     print(f"The {cnt} value is {value}")
+```
+
+NOTE: '%' is stil preferred for logging: 
+
+```
+logger.warn("No email for user %s", user)
 ```
 
 # Typing
