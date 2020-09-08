@@ -18,12 +18,13 @@ Python best practices with a focus on firmware scripting
 
 * ecosystem
 * style and formatting
-* tools you could/should be using
+* stdlib tools you could/should be using
 
 # Qualifications
 
 * 14 years of scientific programming (C/C++, perl, R, ruby, sciruby, etc.)
 * 6 years enterprise software development and data science in python
+* Write tons of scripts to do just about everything
 * Care about clean, beautiful code
 
 I'm open to learning new and better ways and re-evaluating dogmas.\*
