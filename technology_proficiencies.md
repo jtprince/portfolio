@@ -57,7 +57,7 @@
 | drone ci/cd | basic |
 | subversion | extensive |
 | bazaar | basic |
-| mercurty | basic |
+| mercury | basic |
 
 ### AWS
 

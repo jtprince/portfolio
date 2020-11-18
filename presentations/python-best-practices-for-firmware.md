@@ -124,7 +124,8 @@ poetry add --dev ipython flake8 pytest
 
 # Use a style guide
 
-We use the [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+* [Owlet's style guides](https://github.com/OwletCare/engineering-standards/blob/master/style-guides.md)
+* [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 
 # Formatting and style tools
 
