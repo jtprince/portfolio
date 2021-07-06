@@ -4,7 +4,7 @@
 
 * [curriculum vitae](https://docs.google.com/viewer?url=https://github.com/jtprince/portfolio/raw/master/resume_and_cv/John-T-Prince-curricula-vitae.pdf)
 * [publications on pubmed](http://tiny.cc/jtprince-publications)
-    * 34 total
+    * 34 total (33 peer reviewed)
     * 21 peer reviewed algorithmic or software-centric publications
 
 ### Projects and examples
