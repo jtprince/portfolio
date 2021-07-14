@@ -1,7 +1,7 @@
 ## Personal Software Development and Data Analysis Philosophy
 
 1. *Keep focused on the goal*
-    * The *direct* goal is to create great (correct, maintainable, and efficient) software or analyses.  There is no need to fall prey to sunk cost fallacies or our own egos as we seek this end.  Work in harmony to find the best solutions.
+    * The *direct* goal is to create great (correct, maintainable, and efficient) software or analyses.  There is no need to fall prey to sunk cost fallacies or our own egos as we seek this end.  Work in harmony to find the best solutions ("mission over ego").
     * The *sustainable* goal (which is generally compatible with the direct goal) is to create software/analyses while building individual skill sets and nurturing a positive culture.  Skilled and happy programmers create great software, but just as importantly, quality work and rich friendships are part of what make life worth living.
 1. *Isomorphism is the key to automation*: clear, consistent patterns and abstractions allow a person to automate and change processes quickly and efficiently.  *ad hoc* solutions may be necessary at times but are often more costly than anticipated in software since they cannot easily or typically scale.
 1. *Single source (DRY)*: data and code should ideally have a single source.  Creation of all downstream artifacts should be automated.  Single source, along with proper abstractions (see #2), allows many kinds of changes to be made once and completely propagate.
